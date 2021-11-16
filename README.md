@@ -1,11 +1,11 @@
-# System Programming 2021: HW3
+# System Programming 2021: HW3 - Pseudo Thread
 Due on 2021/12/14 23:59
 
 ## 1. Goal
-0. Understand and simulate the concept of context switch.
-1. Understand and learn some system calls about signals.
-2. Understand and learn to use `setjmp()`, `longjmp()`.
-3. Enjoy the journal in system programming.
+1. Understand and simulate the concept of context switch.
+2. Understand and learn some system calls about signals.
+3. Understand and learn to use `setjmp()`, `longjmp()`.
+4. Enjoy the journal in system programming.
 
 ## 2. Problem Description
 In this programming assignment, we are going to simulate a user-thread library
@@ -62,14 +62,14 @@ which is implemented by `alarm()` system call. Typically the timeslice is set to
 5. If multiple signals are pending after one iteration, `SIGTSTP` has the top priority. 
 
 ## 7. simulatedThreads.c
-0. Function name refers to ReduceInteger, MountainClimbing, or OperationCount.
-1. Basically, you are required the three functions with **`O(n)`** time complexity.
+1. Function name refers to ReduceInteger, MountainClimbing, or OperationCount.
+2. Basically, you are required the three functions with **`O(n)`** time complexity.
 You can refer to the code section down below.
-2. Functions should at least print an output line during its timeslice.
-3. Functions only context switch at the end of each iteration.
-4. Functions terminate on `number` exceeded or stop condition occurred.  
-5. You are required to solve all functions via iterative method, instead of recursion.
-6. The details of each functions and corresponding steps you need to follow are down below.
+3. Functions should at least print an output line during its timeslice.
+4. Functions only context switch at the end of each iteration.
+5. Functions terminate on `number` exceeded or stop condition occurred.  
+6. You are required to solve all functions via iterative method, instead of recursion.
+7. The details of each functions and corresponding steps you need to follow are down below.
  - `ReduceInteger()`: Given a positive integer n: if n is even, replace n with n/2; otherwise, 
 you can replace n with either n + 1 or n - 1. Please find the minimum number of replacements 
 needed for n to become 1. The function stops when the calculation is done.
@@ -109,7 +109,7 @@ This homework will only be executed by the following command:
 $ ./main {ri_int} {mc_heights} {oc_arrlen} {timeslice} {switchmode}
 ```
 Below are argument explainations:
-```C
+```
 ri_int = The number for ReduceInteger to process
 mc_heights = The mountain height for MountainClimbing to process
 oc_arrlen = The array length for OperationCount to process
