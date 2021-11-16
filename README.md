@@ -89,16 +89,12 @@ void FunctionName(int thread_id, int number){
     /* Some initilization if needed. */
     for(Current->i = 0; Current->i < Current->N; ++Current->i){
         sleep(1);
-        /*  Do the computation, then output result.
-            Call ThreadExit() if the work is done. */      
+        /*  Put your codes and do the computation here. */      
+		printf("FunctionName: %d\n", your_output_variable);
+        /*  Put your codes and do the computation here. */      
         ThreadYield();
     } ThreadExit();
 }
-```
-In each timeslice, functions should output its current result by:
-```C
-printf("FunctionName: %d\n", your_output_variable);
-```
 
 ## 8. Execution
 This homework will only be executed by the following command:
