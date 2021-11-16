@@ -98,10 +98,6 @@ void FunctionName(int thread_id, int number){
 ```
 
 ## 8. Execution
-This homework will only be executed by the following command:
-```
-$ ./main {ri_int} {mc_heights} {oc_arrlen} {timeslice} {switchmode}
-```
 Below are argument explainations:
 ```
 ri_int = The number for ReduceInteger to process
@@ -109,6 +105,10 @@ mc_heights = The mountain height for MountainClimbing to process
 oc_arrlen = The array length for OperationCount to process
 timeslice = time limit for a function to process until next context switch
 switchmode = 0 for context switch after each iteration; 1 for context switch due to signal caught and timeslice reached
+```
+The homework will only be executed by the following command:
+```
+$ ./main {ri_int} {mc_heights} {oc_arrlen} {timeslice} {switchmode}
 ```
 Sample execution 1
 ```
