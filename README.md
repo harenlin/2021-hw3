@@ -40,10 +40,8 @@ Please refer to the comments in `threadtools.h`.
 
 ## 5. scheduler.c
 You need to implement `sighandler()` and `scheduler()` in `scheduler.c`. The `sighandler` is the 
-requirement as a signal handler in system call `sigaction()`. 
+requirement as a signal handler in system call `sigaction()`. Please refer to the comments in `scheduler.c`.
 (To learn more: https://pubs.opengroup.org/onlinepubs/007904875/functions/sigaction.html)
-
-Please refer to the comments in `scheduler.c`.
 
 ## 6. Rules of "context switch"
 We introduce the rule of "context switch" in detail:
