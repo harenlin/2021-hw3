@@ -61,12 +61,11 @@ which is implemented by `alarm()` system call. Typically the timeslice is set to
 
 ## 7. simulatedThreads.c
 1. Function name refers to ReduceInteger, MountainClimbing, or OperationCount.
-2. Basically, you are required the three functions with **`O(n)`** time complexity.
-You can refer to the code section down below.
-3. Functions should at least print an output line during its timeslice.
-4. Functions only context switch at the end of each iteration.
-5. Functions terminate on `number` exceeded or stop condition occurred.  
-6. You are required to solve all functions via iterative method, instead of recursion.
+2. You are required the three functions with **`O(n)`** time complexity.
+3. You are required to solve all functions via iterative method, instead of recursion.
+4. Functions should at least print an output line during its timeslice.
+5. Functions only context switch at the end of each iteration.
+6. You can refer to the code section down below.
 7. The details of each functions and corresponding steps you need to follow are down below.
  - `ReduceInteger()`: Given a positive integer n: if n is even, replace n with n/2; otherwise, 
 you can replace n with either n + 1 or n - 1. Please find the minimum number of replacements 
