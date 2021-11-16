@@ -41,7 +41,8 @@ Please refer to the comments in `threadtools.h`.
 ## 5. scheduler.c
 You need to implement `sighandler()` and `scheduler()` in `scheduler.c`. The `sighandler` is the 
 requirement as a signal handler in system call `sigaction()`. 
-(To know more: https://pubs.opengroup.org/onlinepubs/007904875/functions/sigaction.html)
+(To learn more: https://pubs.opengroup.org/onlinepubs/007904875/functions/sigaction.html)
+
 Please refer to the comments in `scheduler.c`.
 
 ## 6. Rules of "context switch"
@@ -189,18 +190,14 @@ Note: ^Z is where `SIGTSTP` delivered to process,
 it is not output by process itself.
 
 ## 9. Grading
-0. (1 pt) Your `threadtools.h` and `scheduler.c` supports context switch after each iteration.
-1. (2 pt) Your `threadtools.h` and `scheduler.c` supports context switch by time slice.
-2. (2 pt) Your `threadtools.h` and `scheduler.c` supports context switch by signal caught.
-3. (2 pt) Your `simulatedThreads.c` works correctly in O(n) time complexity.
-4. (1 pt) Your `threadtools.h`, `scheduler.c` and `simulatedThreads.c` work fine together.
+1. (1 pt) Your `threadtools.h` and `scheduler.c` supports context switch after each iteration.
+2. (2 pt) Your `threadtools.h` and `scheduler.c` supports context switch by time slice.
+3. (2 pt) Your `threadtools.h` and `scheduler.c` supports context switch by signal caught.
+4. (2 pt) Your `simulatedThreads.c` works correctly in O(n) time complexity.
+5. (1 pt) Your `threadtools.h`, `scheduler.c` and `simulatedThreads.c` work fine together.
 
 For all tasks, your code will be run on **CSIE workstation**. In the meanwhile, 
 your code will be complied by `MakeFile` in this repostiory. Please make sure your codes are runnable on it.
-- In 1. 2. 3., your `threadtools.h` and `scheduler.c` will complied with TA's `main.c` and `simulatedThreads.c`.
-- In 4., your `simulatedThreads.c` will complied with TA's `main.c` and `threadtools.h` and `scheduler.c`.
-- In 5., your `threadtools.h`, `scheduler.c` and `simulatedThreads.c` will be compiled with TA's `main.c`.
-- TA's `simulatedThreads.c` is pre-compiled as `threefunctions.o` in this repository, use it well. **BUT**, this **DOESN'T** imply that you will get full credit of 0. 1. 2. if your code works fine with TA's `threefunctions.o`. (why?)
 
 ## 10. Submission
 Your assignment should be submitted to github before deadline. The submission should include three files: 
