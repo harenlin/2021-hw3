@@ -98,7 +98,7 @@ void FunctionName(int thread_id, int number){
 }
 ```
 In each timeslice, functions should output its current result by:
-```
+```C
 printf("FunctionName: %d\n", your_output_variable);
 ```
 
@@ -108,7 +108,7 @@ This homework will only be executed by the following command:
 $ ./main {ri_int} {mc_heights} {oc_arrlen} {timeslice} {switchmode}
 ```
 Below are argument explainations:
-```
+```C
 ri_int = The number for ReduceInteger to process
 mc_heights = The mountain height for MountainClimbing to process
 oc_arrlen = The array length for OperationCount to process
