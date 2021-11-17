@@ -1,4 +1,4 @@
-# System Programming 2021: HW3 - Pseudo Thread
+# System Programming 2021: HW3 - Context Switch Simulation
 Due on 2021/12/14 23:59
 
 ## 1. Goal
