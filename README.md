@@ -174,17 +174,18 @@ it is not output by process itself.
 
 ## 9. Grading
 1. (1 pt) Your `threadtools.h` and `scheduler.c` supports context switch after each iteration.
-2. (2 pt) Your `threadtools.h` and `scheduler.c` supports context switch by time slice.
-3. (2 pt) Your `threadtools.h` and `scheduler.c` supports context switch by signal caught.
-4. (2 pt) Your `simulatedThreads.c` works correctly in O(n) time complexity.
-5. (1 pt) Your `threadtools.h`, `scheduler.c` and `simulatedThreads.c` work fine together.
+2. (1 pt) Your `threadtools.h` and `scheduler.c` supports context switch by time slice.
+3. (1 pt) Your `threadtools.h` and `scheduler.c` supports context switch by signal caught.
+4. (1.5 pt) Your functions in `simulatedThreads.c` work correctly in O(n) time complexity.
+5. (1.5 pt) Your `threadtools.h`, `scheduler.c` and `simulatedThreads.c` work fine together.
+6. (2 pt) Submit `report.pdf` and answer the questions correctly.
 
 For all tasks, your code will be run on **CSIE workstation**. In the meanwhile, 
 your code will be complied by `Makefile` in this repostiory. Please make sure your codes are runnable on it.
 
 ## 10. Submission
-Your assignment should be submitted to github before deadline. The submission should include three files: 
-`threadtools.h`, `scheduler.c`, and `simulatedThreads.c`.
+Your assignment should be submitted to github before deadline. The submission should include four files: 
+`threadtools.h`, `scheduler.c`, `simulatedThreads.c`, and `report.pdf`.
 Your repository may contain other files, but TA will **ONLY** score your homework based on three files mentioned above, please make sure that you named your files correctly.
 
 ## 11. Reminder
