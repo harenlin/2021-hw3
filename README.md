@@ -180,7 +180,7 @@ it is not output by process itself.
 5. (1 pt) Your `threadtools.h`, `scheduler.c` and `simulatedThreads.c` work fine together.
 
 For all tasks, your code will be run on **CSIE workstation**. In the meanwhile, 
-your code will be complied by `MakeFile` in this repostiory. Please make sure your codes are runnable on it.
+your code will be complied by `Makefile` in this repostiory. Please make sure your codes are runnable on it.
 
 ## 10. Submission
 Your assignment should be submitted to github before deadline. The submission should include three files: 
