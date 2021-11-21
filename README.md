@@ -76,26 +76,15 @@ or 2 units of height. Please compute how many distinct ways you climb to the top
 stops when the calculation is done.
 
  - `OperationCount()`: You have an array `arr` of length n where `arr[idx] = (2*idx)+323` for all 
-valid values of i (i.e. 0 <= idx < n). In each operation, you are allowed choose two indices x and y 
+valid indices, 0 <= idx < n. In each operation, you are allowed choose two indices p and q 
 where `0 <= p, q < n` and subtract 323 from `arr[p]` and add 323 to `arr[q]` (i.e. 
 `arr[p] -= 323` & `arr[q] += 323`). The goal is to make all the elements of the array equal. 
 We promised that all the numbers of an array can be made equal using this operations. 
 Please calculate the minimum number of operations needed to make all the elements of 
 array equal with given integer n, the length of the array. The function stops when the calculation is done.
-```C
-/* You can refer to the code section here to complete your functions. */
-void FunctionName(int thread_id, int number){
-    ThreadInit(thread_id, number);
-    /* Some initilization if needed. */
-    for(Current->i = 0; Current->i < Current->N; ++Current->i){
-        sleep(1);
-        /*  Put your codes and do the computation here. */      
-		printf("FunctionName: %d\n", your_output_variable);
-        /*  Put your codes and do the computation here. */      
-        ThreadYield();
-    } ThreadExit();
-}
-```
+8. Basically, when the function thread starts, you should do some initialization, `ThreadInit`.
+And in each iteration, do the context switch, `ThreadYield`. When the end of execution is triggerd,
+just complete the function thread, `ThreadExit`. 
 
 ## 8. Execution
 Below are argument explainations:
