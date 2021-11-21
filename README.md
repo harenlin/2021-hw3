@@ -82,9 +82,14 @@ where `0 <= p, q < n` and subtract 323 from `arr[p]` and add 323 to `arr[q]` (i.
 We promised that all the numbers of an array can be made equal using this operations. 
 Please calculate the minimum number of operations needed to make all the elements of 
 array equal with given integer n, the length of the array. The function stops when the calculation is done.
-8. [Hint] Basically, when the function thread starts, you should do some initialization, `ThreadInit`.
+8. In each timeslice, function should outputs its current result as below:
+```C
+printf("FunctionName: %d\n", your_output);
+```
+9. [Hint] Basically, when the function thread starts, you should do some initialization, `ThreadInit`.
 And in each iteration, do the context switch, `ThreadYield`. When the end of execution is triggerd,
-just complete the function thread, `ThreadExit`. 
+just complete the function thread, `ThreadExit`.
+ 
 
 ## 8. Execution
 Below are argument explainations:
