@@ -193,3 +193,4 @@ Your repository may contain other files, but TA will **ONLY** score your homewor
 3. If you have any question, please leave comments on NTU COOL's discussion area of programming hw3 first.
 4. For some code details, please feel free to contact us via email ntucsiesp@gmail.com or come during TA hours.
 5. Please start your work as soon as possible, **DON'T** leave it until the last day! 
+6. Watch out for the typos!
