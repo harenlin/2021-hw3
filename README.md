@@ -188,8 +188,8 @@ For all tasks, your code will be run on **CSIE workstation**. In the meanwhile,
 your code will be complied by `Makefile` in this repostiory. Please make sure your codes are runnable on it.
 
 ## 10. Submission
-Your assignment should be submitted to github before deadline. The submission should include four files: 
-`threadtools.h`, `scheduler.c`, `simulatedThreads.c`, and `report.pdf`.
+Your assignment should be submitted to github before deadline. The submission should include 3 important files: 
+`threadtools.h`, `scheduler.c`, `simulatedThreads.c`.
 Your repository may contain other files, but TA will **ONLY** score your homework based on three files mentioned above, please make sure that you named your files correctly.
 
 ## 11. Reminder
