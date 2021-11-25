@@ -75,10 +75,10 @@ needed for n to become 1. The function stops when the calculation is done.
 or 2 units of height. Please compute how many distinct ways you climb to the top? The function 
 stops when the calculation is done.
 
- - `OperationCount()`: You have an array `arr` of length n where `arr[idx] = (2*idx)+323` for all 
+ - `OperationCount()`: Given an array `arr` of length n where `arr[idx] = (2*idx)+323` for all 
 valid indices, 0 <= idx < n. In each operation, you are allowed choose two indices p and q 
-where `0 <= p, q < n` and subtract 323 from `arr[p]` and add 323 to `arr[q]` (i.e. 
-`arr[p] -= 323` & `arr[q] += 323`). The goal is to make all the elements of the array equal. 
+where `0 <= p, q < n` and subtract 1 from `arr[p]` and add 1 to `arr[q]` (i.e. 
+`arr[p] -= 1` & `arr[q] += 1`). The goal is to make all the elements of the array equal. 
 We promised that all the numbers of an array can be made equal using this operations. 
 Please calculate the minimum number of operations needed to make all the elements of 
 array equal with given integer n, the length of the array. The function stops when the calculation is done.
