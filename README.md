@@ -94,6 +94,7 @@ function_name(parameters){
 	ThreadInit();
 	for(...){
 		sleep(1);
+		/* function work */
 		ThreadYield();
 	} 
 	ThreadExit();
