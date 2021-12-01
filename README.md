@@ -89,7 +89,16 @@ printf("FunctionName: %d\n", your_output);
 9. [Hint] Basically, when the function thread starts, you should do some initialization, `ThreadInit`.
 And in each iteration, do the context switch, `ThreadYield`. When the end of execution is triggerd,
 just complete the function thread, `ThreadExit`.
- 
+```
+function_name(parameters){
+	ThreadInit();
+	for(...){
+		sleep(1);
+		ThreadYield();
+	} 
+	ThreadExit();
+}
+``` 
 
 ## 8. Execution
 Below are argument explainations:
