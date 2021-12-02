@@ -148,6 +148,7 @@ ALRM signal caught!
 Operation Count: 1
 Operation Count: 4
 Operation Count: 9
+ALRM signal caught!
 Mountain Climbing: 8
 Mountain Climbing: 13
 Mountain Climbing: 21
@@ -163,17 +164,17 @@ Sample execution 3
 $ ./main 8 10 6 3 1
 Reduce Integer: 1
 Reduce Integer: 2
-Reduce Integer: 3
-ALRM signal caught!
-^ZMountain Climbing: 2
+^ZReduce Integer: 3
 TSTP signal caught!
+Mountain Climbing: 2
+ALRM signal caught!
 Operation Count: 1
 Operation Count: 4
-Operation Count: 9
-^ZMountain Climbing: 3
+^ZOperation Count: 9
 TSTP signal caught!
-^ZMountain Climbing: 5
-TSTP signal caught!
+Mountain Climbing: 3
+ALRM signal caught!
+Mountain Climbing: 5
 ^ZMountain Climbing: 8
 TSTP signal caught!
 Mountain Climbing: 13
