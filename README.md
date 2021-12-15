@@ -84,7 +84,7 @@ Please calculate the minimum number of operations needed to make all the element
 array equal with given integer n, the length of the array. The function stops when the calculation is done.
 8. In each timeslice, function should outputs its current result as below:
 ```C
-printf("FunctionName: %d\n", your_output);
+printf("Function Name: %d\n", your_output);
 ```
 9. [Hint] Basically, when the function thread starts, you should do some initialization, `ThreadInit`.
 And in each iteration, do the context switch, `ThreadYield`. When the end of execution is triggerd,
